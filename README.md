@@ -1,7 +1,9 @@
+### Link da aplicação na AWS
+[Link AWS](http://ec2-3-143-210-42.us-east-2.compute.amazonaws.com/)
 
-Roteiro:
+### Roteiro:
 
-Identificar o local (pasta) em que o dockerfile se encontra:
+Identificar o local (pasta) em que o dockerfile se encontra (pasta 'env' do projeto):
 
 ![51251235](https://user-images.githubusercontent.com/69479876/142739163-73d191ff-84f6-421c-a51f-8ee29b57062f.png)
 
@@ -16,10 +18,10 @@ Criando e dando start no container:
 
 ![ffffffffffffffffffff](https://user-images.githubusercontent.com/69479876/142739228-28ad1dda-5a66-4230-8c62-5f4572d47817.png)
 
-Para visualizar o resultado é só acessar pelo localhost:80
+Para visualizar o resultado é só acessar pelo localhost
 
-![ff35533](https://user-images.githubusercontent.com/69479876/142739299-fc68b41f-2aa2-4388-977d-1a16c98e8886.png)
+![image](https://user-images.githubusercontent.com/51006938/142742106-0790c0a1-60be-477e-ab63-9f69e5f278dc.png)
 
 Resultado:
 
-![fhv bfcb](https://user-images.githubusercontent.com/69479876/142739346-0d0648ea-12a9-47d3-acd2-63fd93008bd0.png)
+![image](https://user-images.githubusercontent.com/51006938/142742093-9ab19cde-f1e2-4be2-b5bf-a0ff5ba9f9bb.png)
