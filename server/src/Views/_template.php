@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <main>
-        {{ @content }}
-    </main>
+    <h1>Docker App</h1>
     <aside>
         {{ @folder->_sidebar }}
     </aside>
+    <main>
+        {{ @content }}
+    </main>
     <footer>
         {{ @folder->_footer }}
     </footer>

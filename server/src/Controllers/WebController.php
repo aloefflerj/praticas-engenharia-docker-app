@@ -15,7 +15,7 @@ class WebController
      */
     public static $view;
 
-    public static $curl;
+    public static $links;
 
     public static function init()
     {
@@ -26,10 +26,27 @@ class WebController
     
     public static function home()
     {
-        // header('Content-Type: text/html');
         return function($req, $res, $params) {
 
-           echo 'Olá, seja bem vindo';
+            echo self::$view->render('home', [
+                'page_title' => 'Olá, seja bem vindo',
+                'content' => 'Aplicação de práticas de engenharia de software'
+            ]);
+        };
+    }
+
+    public static function gitHub()
+    {
+        return function($req, $res, $params) {
+
+            $link = <<<GITLINK
+                <a href='https://github.com/aloefflerj/praticas-engenharia-docker-app' target='_blank'>praticas-engenharia-docker-app</a>
+            GITLINK;
+
+            echo self::$view->render('github', [
+                'page_title' => 'Repositório do projeto',
+                'content' => $link
+            ]);
         };
     }
 

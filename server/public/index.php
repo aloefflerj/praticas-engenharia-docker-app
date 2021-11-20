@@ -26,11 +26,7 @@ $app = new BaseController();
 WebController::init();
 $app->get('/', WebController::home());
 
-
-// Test group ---------------->
-$app->get('/test/{id}', function ($req, $res, $params) {
-    echo $params->id;
-});
+$app->get('/git', WebController::gitHub());
 
 $app->dispatch();
 
