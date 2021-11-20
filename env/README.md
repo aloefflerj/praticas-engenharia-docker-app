@@ -1,4 +1,6 @@
 
+Roteiro:
+
 Identificar o local (pasta) em que o dockerfile se encontra:
 
 ![51251235](https://user-images.githubusercontent.com/69479876/142739163-73d191ff-84f6-421c-a51f-8ee29b57062f.png)
