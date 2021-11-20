@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  docker_app_server:
+    container_name: docker_app_server
+    build:
+      context: .
+      dockerfile: server.Dockerfile
+    image: php:7.4-apache
+    # depends_on:
+    #   - fed-the-dog-db
+    volumes:
+      - ../server:/var/www/html
+      - /demo.apache.conf:/etc/apache2/sites-enabled/demo.conf
+      # - ./Config.php:/var/www/html/src/config/Config.php
+    ports:
+      - 80:80
