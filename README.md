@@ -1,5 +1,5 @@
 ### Link da aplicação na AWS
-[Link AWS](http://ec2-3-143-210-42.us-east-2.compute.amazonaws.com/)
+[Link AWS](http://18.221.185.156/)
 
 ### Roteiro:
 
